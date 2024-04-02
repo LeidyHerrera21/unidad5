@@ -254,6 +254,13 @@ html {
 	
 }
 
+.feature-content button{
+		background-color: transparent; /* Establece el color de fondo como transparente */
+		border: none; /* Quita el borde */
+		outline: none; /* Quita el contorno al enfocar el botón */
+	
+}
+
 .card-feature {
 	display: flex;
 	align-items: center;
@@ -1003,4 +1010,11 @@ html {
 	.content p{
 		font-size: 1.6rem;
 	}
+}
+
+.img45{ 
+	width: 1350px;
+	height: 600px;
+	font-size: 1.6rem;
+    text-align: center;
 }
