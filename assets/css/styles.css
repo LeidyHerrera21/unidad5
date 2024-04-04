@@ -254,11 +254,21 @@ html {
 	
 }
 
-.feature-content button{
+.main-content button{
 		background-color: transparent; /* Establece el color de fondo como transparente */
 		border: none; /* Quita el borde */
 		outline: none; /* Quita el contorno al enfocar el botón */
 	
+}
+
+.carousel {
+	max-width: 800px; /* Ancho máximo deseado del carousel */
+	margin: auto; /* Centrar el carousel */
+}
+
+.carousel-item img {
+	max-width: 150%; /* Ajustar el tamaño de las imágenes al carousel */
+	height: auto; /* Mantener la proporción de aspecto */
 }
 
 .card-feature {
@@ -1017,4 +1027,7 @@ html {
 	height: 600px;
 	font-size: 1.6rem;
     text-align: center;
+	overflow: hidden;
+	display: block;
+	max-width: 100%;
 }
