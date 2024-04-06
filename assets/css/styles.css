@@ -261,25 +261,15 @@ html {
 	
 }
 
-.carousel {
-	max-width: 750px; /* Ancho máximo deseado del carousel */
-	margin: 4rem auto; /* Centrar el carousel */
-}
-
-.carousel-item img {
-	max-width: 150%; /* Ajustar el tamaño de las imágenes al carousel */
-	height: auto; /* Mantener la proporción de aspecto */
-}
 
 .card-feature {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 1.5rem;
-
 	background-color: #fff;
 	border-radius: 1rem;
-	padding: 1.5rem 0;
+	padding: 1.3rem 0;
 }
 
 .card-feature i {
@@ -289,19 +279,31 @@ html {
 
 .feature-content {
 	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.feature-content > div {
+	display: flex;
 	flex-direction: column;
-	gap: 0.5rem;
+	align-items: start;
 }
 
 .feature-content span {
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 2.0rem;
 	color: var(--dark-color);
 }
 
 .feature-content p {
 	color: #777;
-	font-weight: 800;
+	font-weight: 700;
+	font-size: 1.4rem;
+}
+
+.feature-content img {
+	width: 100px; /* Ancho deseado para la imagen */
+	margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
 
 /* ********************************** */
@@ -578,16 +580,36 @@ html {
 /* ********************************** */
 /*               GALLERY              */
 /* ********************************** */
+.gallery-container {
+	margin-left: 15px; /* Espacio a la izquierda */
+	margin-right: 15px; /* Espacio a la derecha */
+  }
+  
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 1.5rem;
+	gap: 1.3rem;
 }
 
 .gallery img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+/* ********************************** */
+/*               CAROUSEL               */
+/* ********************************** */
+
+.carousel {
+	max-width: 750px; /* Ancho máximo deseado del carousel */
+	margin: 4rem auto; /* Centrar el carousel */
+}
+
+.carousel-item img {
+	max-width: 150%; /* Ajustar el tamaño de las imágenes al carousel */
+	height: auto; /* Mantener la proporción de aspecto */
 }
 
 /* ********************************** */
@@ -719,6 +741,7 @@ html {
 	font-weight: 400;
 	font-size: 1.6rem;
 }
+
 
 /* ********************************** */
 /*       MEDIA QUERIES -- 768px       */
