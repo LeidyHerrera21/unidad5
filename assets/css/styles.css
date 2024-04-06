@@ -932,3 +932,28 @@ html {
 	display: block;
 	max-width: 100%;
 }
+
+/* ********************************** */
+/*             Recibo                 */
+/* ********************************** */
+
+#recibo {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    font-family: Arial, sans-serif;
+}
+
+#items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#total {
+    margin-top: 10px;
+}
+
+#agregarItem {
+    margin-top: 10px;
+}

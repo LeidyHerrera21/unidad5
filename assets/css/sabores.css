@@ -181,7 +181,3 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
-
-.arrow :hover {
-	background-color: #0056b3; /* Cambia el color de fondo cuando el mouse está sobre la caja */
-}
